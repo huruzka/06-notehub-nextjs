@@ -13,7 +13,7 @@ import Loader from '@/components/Loader/Loader';
 import ErrorMessage from '@/components/ErrorMessage/ErrorMessage';
 import NoteList from '@/components/NoteList/NoteList';
 import Pagination from '@/components/Pagination/Pagination';
-import SearchBox from '@/components/SearchForm/SearchForm';
+import SearchBox from '@/components/SearchBox/SearchBox';
 
 function NotesClient() {
   const [page, setPage] = useState(1);
