@@ -15,7 +15,7 @@ import NoteList from '@/components/NoteList/NoteList';
 import Pagination from '@/components/Pagination/Pagination';
 import SearchBox from '@/components/SearchForm/SearchForm';
 
-function App() {
+function NotesClient() {
   const [page, setPage] = useState(1);
   const [searchQuery, setSearchQuery] = useState('');
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -85,4 +85,4 @@ function App() {
   );
 }
 
-export default App;
+export default NotesClient;
