@@ -4,7 +4,7 @@ import {
   HydrationBoundary,
   QueryClient,
 } from '@tanstack/react-query';
-import NotesClient from './NotesDetails.client';
+import NotesClient from './Notes.client';
 
 const topic = '';
 const page = 1;
